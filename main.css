@@ -1,0 +1,82 @@
+body {
+  max-width: 900px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.container {
+max-width:90%;
+  margin-top:16px;
+  padding: 0 16px;
+}
+.header {
+  display:flex;
+ justify-content: space-between; 
+ margin-top:25px;
+  padding: 60px 0;
+}
+
+.picture img{
+  margin-top:25px;
+  height:100%;
+  width:100%;
+  padding:16px;
+}
+
+.gallery {
+max-width:80%;
+height:800px;
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows:repeat(7,1fr) ;
+ grid-template-areas: 
+"bird bird  bird bird  "
+"bulb bulb  shell shell"
+"city city city city"
+"girl melon melon melon"
+"dog dog dog dog"
+"lily river river river"
+"j j j j";
+gap: 16px;
+  
+}
+
+#b1 {
+  grid-area: bird;
+}
+
+#b2 {
+  grid-area: bulb;
+}
+
+#b3 {
+  grid-area: shell;
+}
+
+#b4 {
+  grid-area: city;
+}
+
+#b5 {
+  grid-area: girl;
+}
+
+#b6 {
+  grid-area: melon;
+}
+
+#b7 {
+  grid-area: dog;
+}
+
+#b8 {
+  grid-area: lily;
+}
+
+#b9 {
+  grid-area: river;
+}
+
+#b10 {
+  grid-area: j;
+}
